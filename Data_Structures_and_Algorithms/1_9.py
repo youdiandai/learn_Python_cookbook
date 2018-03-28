@@ -26,3 +26,4 @@ a.keys() - b.keys()
 
 c = {key:a[key] for key in a.keys() - {'z','w'}}
 #字典推导式，去掉a中的z，和w
+#字典的键可以支持常见的集合操作
